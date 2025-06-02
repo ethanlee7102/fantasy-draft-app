@@ -19,7 +19,7 @@ def get_player_stats(player_name: str):
 
     player = matched_players[0]
     player_id = player["id"]
-
+    #new comment 
     # Fetch career stats
     try:
         career = playercareerstats.PlayerCareerStats(player_id=player_id)
